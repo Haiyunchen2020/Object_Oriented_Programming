@@ -42,7 +42,6 @@ class Employee:
         return self.bank_account
 
 #create a Cook class, Cook class inherits the Employee class and all of its properties and methods.
-#To inherits the Employee class, put "Employee" in the parentheses as the argument of Cook.
 class Cook(Employee):
     def __init__(self,name,address,telephone,ssn,bank_account,year_of_experience):
         Employee.__init__(self,name,address,telephone,ssn,bank_account)
