@@ -4,7 +4,6 @@
 In this programming, an object oriented model is designed for a restaurant employee management system.
 A restaurant can have cooks, sous-chefs, chefs, servers, janitors, and managers.  Various
 abstract data types are created to model the relationships among these occupations. 
-
 ======================================================================================================
 
 '''
@@ -33,8 +32,6 @@ class Employee:
     #getters for each elements in Employee objects:
     def get_name(self):
         return self.name #Output of print:Liam Cruz
-#Note above: return 'name is: ' + self.name -->It also works. Output:name is:  Liam Cruz
-#However,    return 'name is: ' , self.name -->It is not good. Output:('name is:  ', 'Liam Cruz')
     def get_address(self):
         return self.address
     def get_telephone(self):
